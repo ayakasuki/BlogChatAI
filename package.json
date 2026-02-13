@@ -1,0 +1,49 @@
+{
+  "name": "chatbot-auth",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "chatbot博客机器人后端验证服务 - 提供安全的超管认证和令牌管理",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "pm2 start ./config/pm2/pm2.json",
+    "stop": "pm2 stop ./config/pm2/pm2.json",
+    "restart": "pm2 restart ./config/pm2/pm2.json",
+    "logs": "pm2 logs chatbot-auth",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "chatbot",
+    "authentication",
+    "onebot",
+    "websocket",
+    "redis"
+  ],
+  "author": "ayakasuki",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "redis": "^4.6.7",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayakasuki/chatbot-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayakasuki/chatbot-auth/issues"
+  },
+  "homepage": "https://github.com/ayakasuki/chatbot-auth#readme"
+}
