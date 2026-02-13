@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "name": "chatbot-auth",
+    "name": "BlogChatAi",
     "script": "app.js",
     "instances": 1,
     "exec_mode": "fork",
@@ -11,8 +11,8 @@
       "PORT": 7000
     },
     "log_date_format": "YYYY-MM-DD HH:mm:ss",
-    "error_file": "/var/log/chatbot-auth/error.log",
-    "out_file": "/var/log/chatbot-auth/out.log",
+    "error_file": "/var/log/BlogChatAi/error.log",
+    "out_file": "/var/log/BlogChatAi/out.log",
     "merge_logs": true
   }]
 }
