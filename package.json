@@ -1,8 +1,8 @@
 {
-  "name": "chatbot-auth",
+  "name": "BlogChatAI",
   "version": "1.0.0",
   "type": "module",
-  "description": "chatbot博客机器人后端验证服务 - 提供安全的超管认证和令牌管理",
+  "description": "博客的连接聊天机器人后端的后端桥接器,目前已实现HEXO等前端博客使用onebot虚拟机器人桥接机器人后端，支持Yunzai-TRSS\Nonebot\GSUID等以及其Ai智能智能体插件",
   "main": "app.js",
   "scripts": {
     "dev": "node app.js",
@@ -13,7 +13,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [
-    "chatbot",
+    "BlogChatAI",
     "authentication",
     "onebot",
     "websocket",
@@ -40,10 +40,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayakasuki/chatbot-auth.git"
+    "url": "git+https://github.com/ayakasuki/BlogChatAI.git"
   },
   "bugs": {
-    "url": "https://github.com/ayakasuki/chatbot-auth/issues"
+    "url": "https://github.com/ayakasuki/BlogChatAI/issues"
   },
-  "homepage": "https://github.com/ayakasuki/chatbot-auth#readme"
+  "homepage": "https://github.com/ayakasuki/BlogChatAI#readme"
 }
