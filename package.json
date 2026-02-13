@@ -2,7 +2,7 @@
   "name": "BlogChatAI",
   "version": "1.0.0",
   "type": "module",
-  "description": "博客的连接聊天机器人后端的后端桥接器,目前已实现HEXO等前端博客使用onebot虚拟机器人桥接机器人后端，支持Yunzai-TRSS\Nonebot\GSUID等以及其Ai智能智能体插件",
+  "description": "博客的连接聊天机器人后端的后端桥接器,目前已实现HEXO等前端博客使用onebot虚拟机器人桥接机器人后端，支持Yunzai-TRSS、Nonebot、GSUID等以及其Ai智能智能体插件",
   "main": "app.js",
   "scripts": {
     "dev": "node app.js",
